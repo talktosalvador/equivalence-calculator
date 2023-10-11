@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equivalence Calculator</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <main>
+      <div>
+        <button class="clear" onclick="localStorage.clear();location.reload();">clear all</button>
+        <p>Base size in px</p>
+        <input id="base-input" type="number" />
+        <div id="base-list"></div>
+        <p>Parent equivalence size in px</p>
+        <input id="parents-input" type="number" />
+        <div id="parents-list"></div>
+        <p>Child equivalence size in px</p>
+        <input id="children-input" type="number" autofocus />
+        <div id="results-list"></div>
+      </div>
+    </main>
+  </main>
+  <script src="main.js"></script>
+  <script>
+  </script>
+</body>
+
+</html>
